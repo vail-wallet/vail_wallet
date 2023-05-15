@@ -1,4 +1,4 @@
-# vial_wallet
+# vail_wallet
 
 A new Flutter project.
 
