@@ -7,6 +7,7 @@ import 'package:vial_wallet/utils/colors.dart';
 import 'package:vial_wallet/utils/images.dart';
 import 'package:vial_wallet/utils/texts.dart';
 import 'package:vial_wallet/view/dash.dart';
+import 'package:vial_wallet/view/homepage.dart';
 
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key});
@@ -273,7 +274,7 @@ class _OnboardingState extends State<Onboarding> {
                              Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (_) => const LoginPage()));
+                                      builder: (_) => const HomePage()));
                           },
                           child: customButton(
                               text: 'Sign In',
